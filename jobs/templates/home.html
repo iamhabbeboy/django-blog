@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>Form Generator </title>
+</head>
+<body>
+  <h3>Welcome to our website </h3>
+
+  {% for x in member_data %}
+   <p><b>Full Name: {{ x.username}}</b></p>
+     {% endfor %}
+
+      <a href="create-new">Create New </a>
+</body>
+</html>
